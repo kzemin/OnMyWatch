@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9FCC27D32EDB62A9001B739F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9FCC27D22EDB62A9001B739F /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		9FCC27882ECEE19A001B739F /* OnMyWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnMyWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FCC27D22EDB62A9001B739F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		9FCC277F2ECEE19A001B739F = {
 			isa = PBXGroup;
 			children = (
+				9FCC27D22EDB62A9001B739F /* .gitignore */,
 				9FCC278A2ECEE19A001B739F /* OnMyWatch */,
 				9FCC27892ECEE19A001B739F /* Products */,
 			);
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 9FCC277F2ECEE19A001B739F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9FCC27CB2EDB5DE0001B739F /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9FCC27892ECEE19A001B739F /* Products */;
 			projectDirPath = "";
@@ -109,6 +118,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FCC27D32EDB62A9001B739F /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +265,7 @@
 				DEVELOPMENT_TEAM = D9DSWYW272;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "\"Enable access bro\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +295,7 @@
 				DEVELOPMENT_TEAM = D9DSWYW272;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "\"Enable access bro\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -324,6 +336,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9FCC27CB2EDB5DE0001B739F /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SimplyDanny/SwiftLintPlugins";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.62.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 9FCC27802ECEE19A001B739F /* Project object */;
 }
